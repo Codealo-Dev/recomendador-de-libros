@@ -10,7 +10,7 @@ function App() {
           Edita <code>src/App.js</code> y guarda para ver cambios.
         </p>
         <a
-          className="App-link"
+          className="App-link "
           href="https://codealo.dev"
           target="_blank"
           rel="noopener noreferrer"

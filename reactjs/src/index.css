@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+body{
+
+  background-color: rgb(170, 166, 166);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.book{
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 180px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  width: 160px;
+
+}
+
+.book__cover{
+
+  box-shadow: 1px 1px 25px black;
+  height: 165px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+  
+}
+
+.book__image{
+  
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+
 }
